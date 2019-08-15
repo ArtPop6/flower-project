@@ -12,3 +12,5 @@
 2. 在这个分支上new添加修改后的文件git add ,git commit -m
 3. 切换到master分支，合并分支 git merge new
 4. 删除new分支
+
+
