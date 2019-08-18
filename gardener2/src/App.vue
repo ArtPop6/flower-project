@@ -1,9 +1,15 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">资讯</router-link> |  
-      <router-link to="/about">订阅</router-link> |
-      <router-link to="/topic">话题</router-link>
+      <div class="tab-item">
+        <router-link to="/">资讯</router-link>  
+      </div>
+      <div class="tab-item">
+        <router-link to="/about">订阅</router-link> 
+      </div>
+      <div class="tab-item">
+        <router-link to="/topic">话题</router-link>
+      </div>
     </div>
     <router-view/>
   </div>
@@ -17,7 +23,13 @@
   color #2c3e50
 
 #nav
+  
+  display flex
   padding 30px
+  .tab-item
+    text-align center
+    text-decoration none
+    flex 1
   a
     text-text-decoration none
     width 33%
