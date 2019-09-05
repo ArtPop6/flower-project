@@ -11,9 +11,11 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "css-loader": "^3.2.0",
+    "element-ui": "^2.12.0",
     "style-loader": "^1.0.0",
     "vue": "^2.6.10",
     "vue-awesome-swiper": "^3.1.3",
+    "vue-loader": "^15.7.1",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
   },
@@ -32,5 +34,24 @@
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "description": "- git出现\"Updates were rejected because the tip of your current branch is behind\"的问题\r 1. 主要是因为远程仓库与本地仓库冲突的问题\r 2. 使用git pull 将仓库一致后再push",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtPop6/flower-project.git"
+  },
+  "keywords": [
+    "flower",
+    "project"
+  ],
+  "author": "me!",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtPop6/flower-project/issues"
+  },
+  "homepage": "https://github.com/ArtPop6/flower-project#readme"
 }

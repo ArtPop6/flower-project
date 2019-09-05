@@ -3,21 +3,20 @@
     <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <swiper /> -->
-    <Awesome />
+    <Carousel />
   </div>
 </template>
 
 
 <script>
 // @ is an alias to /src
-import Swiper from '@/components/Swiper.vue'
-import Awesome from '@/components/Awesome.vue'
+// import Swiper from "@/components/Swiper.vue";
+import Carousel from "../components/Carousel.vue";
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
-    Swiper,
-    Awesome
+    Carousel
   }
-}
+};
 </script>
